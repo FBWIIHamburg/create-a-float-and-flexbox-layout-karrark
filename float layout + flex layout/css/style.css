@@ -1,0 +1,48 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    overflow: hidden;
+}
+
+.div1	{
+    background-color: rgb(83, 83, 107);
+    width: 20%;
+    height: 1070px;
+    float: left;
+}
+
+.div2 {
+    background-color: rgb(58, 19, 95);
+width: 80%;
+height: 300px;
+float: left;
+
+}
+
+.div3{
+    background-color: rgb(102, 41, 41);
+    width: 60%;
+    height: 400px;
+    float: left;
+}
+.div4{
+    background-color:rgb(33, 99, 77);
+    width: 60%;
+    height:400px;
+    float: left; 
+}
+.div5{
+    background-color: rgb(218, 162, 162);
+    width: 20%;
+    height: 770px;
+    float: none;
+    
+}
+
+@media screen and (max-width :800px){
+    .div1,.div5,.div2,.div3,.div4{
+        width: 100%;
+    }
+}
+
